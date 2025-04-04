@@ -51,6 +51,12 @@ function LoginSignup() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900">
+      <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-extrabold text-center mb-16 tracking-tight">
+  <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent animate-pulse">
+    MyWorldTec Attendance System
+  </span>
+</h1>
+
       <div className="bg-gray-800 p-8 rounded-xl shadow-xl w-full max-w-md transform transition-all duration-300 hover:scale-105">
         <h2 className="text-4xl text-white font-extrabold text-center mb-6">
           {isLogin ? "Login" : "Signup"}
